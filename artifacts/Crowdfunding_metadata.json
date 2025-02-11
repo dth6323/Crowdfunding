@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Crowdfunding.sol": "Crowdfunding"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Crowdfunding.sol": {
+			"keccak256": "0x295f93e8c7f8021be442869b076ea70e8cb5eec1dab00c710442af2f7050f34b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c347852b290c632f59844c3a148aac988b1cec40abc5d18ff9abff052d52b4d0",
+				"dweb:/ipfs/QmbETudTHwZkUZogZC817LTEELG1bKGjXF59pkRXTzr8aK"
+			]
+		}
+	},
+	"version": 1
+}
