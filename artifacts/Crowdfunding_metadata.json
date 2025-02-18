@@ -14,19 +14,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "totalAmountFunded",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -61,11 +48,11 @@
 	},
 	"sources": {
 		"Crowdfunding.sol": {
-			"keccak256": "0x615fe093851b65e07cd2de7ec2c17c6a2dd1a73c260a3afb6aebd00f0b48b3ce",
+			"keccak256": "0xf251fa7050d6d2ede55fdc1be2c8ab0975fa91491b5592bd36d953366af05c76",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4a3834f1dae27777b1ee7e3e7b4d02041eb3b38bcca6145688cf7b29b58da9c3",
-				"dweb:/ipfs/QmdrEhBNLt2aweYcDqh4F98d1vv1rDuLgE4pphEUgtntTc"
+				"bzz-raw://34fcea573b164eb55b65659b177f018de4b177bc118c2b546fc9f7624aad2c8e",
+				"dweb:/ipfs/QmV1wYgLhUG8mSWEMGxkTS3XXUYxFaLd25eUJagjU6gq1c"
 			]
 		}
 	},
