@@ -7,9 +7,40 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "MINIMUM_FUND",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "fund",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i_owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -48,11 +79,11 @@
 	},
 	"sources": {
 		"Crowdfunding.sol": {
-			"keccak256": "0xf251fa7050d6d2ede55fdc1be2c8ab0975fa91491b5592bd36d953366af05c76",
+			"keccak256": "0x03a2ea6aa1bf5f994c031dbf104a76694b8cd7367834a75cb9e21f9c2e0f6683",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://34fcea573b164eb55b65659b177f018de4b177bc118c2b546fc9f7624aad2c8e",
-				"dweb:/ipfs/QmV1wYgLhUG8mSWEMGxkTS3XXUYxFaLd25eUJagjU6gq1c"
+				"bzz-raw://8d6a2970a9c179c3060aa57875ea7eeb2f86349b7a9372dfb8bf666d926caa68",
+				"dweb:/ipfs/QmU6arrykGEwzzy6Fr5PT9H2VCCZ3QDKzfi7x1uz5hayej"
 			]
 		}
 	},

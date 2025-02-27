@@ -11,6 +11,8 @@ contract Crowdfunding {
         require(fundAmount >= MINIMUM_FUND, "No availabel amount");
         }
     function withdraw() public {
-        
+        if(i_owner!=msg.sender){
+            revert();
+        }
     }
 }
